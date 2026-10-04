@@ -1,0 +1,14 @@
+# Flutter platform-generated files
+android/** linguist-generated=true
+ios/** linguist-generated=true
+linux/** linguist-generated=true
+macos/** linguist-generated=true
+windows/** linguist-generated=true
+web/** linguist-generated=true
+
+# Dart source files
+*.dart linguist-language=Dart
+
+# Config files
+*.yaml linguist-language=YAML
+*.yml linguist-language=YAML
