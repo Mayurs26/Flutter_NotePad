@@ -1,17 +1,34 @@
-# notepad
+# 📝 Flutter NotePad
 
-A new Flutter project.
+A simple and clean **NotePad application built with Flutter and Dart** that allows users to create and view notes with a minimal and user-friendly interface.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 📝 Create and save notes
+- 👀 View note details
+- 📋 Display notes using reusable note cards
+- 🔄 Navigate between screens
+- 🎨 Clean and minimal UI
+- ⚡ Simple state management using `setState`
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Flutter**
+- **Dart**
+- **Material Design**
+- **StatefulWidget & setState**
+- **Navigator**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Structure
+
+```text
+lib/
+├── models/
+│   └── note_model.dart
+├── screens/
+│   ├── home_screen.dart
+│   ├── create_notes.dart
+│   └── note_view.dart
+├── widget/
+│   └── note_card.dart
+└── main.dart
